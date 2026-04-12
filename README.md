@@ -33,18 +33,37 @@ To capture, measure, and analyze Round Trip Time (RTT) and Jitter under six dist
 
 ---
 
+## RTT Analysis Script
+
+The file `rtt_tcp_analysis.py` contains the complete Python script used for RTT extraction and graph generation in this DA.
+
+**To run the script:**
+
+```bash
+# Step 1 — Install dependencies
+pip install scapy matplotlib numpy
+
+# Step 2 — Edit the pcap filename inside the script
+PCAP_FILE = "your_capture_file.pcapng"
+
+# Step 3 — Run
+python3 rtt_tcp_analysis.py
+```
+
+The script reads any `.pcapng` file captured using Wireshark, calculates RTT by matching TCP sequence numbers with ACK responses, and generates three graphs — RTT vs Time, RTT vs Throughput, and RTT vs Packet Rate.
+
+> See `rtt_tcp_analysis.py` for the full code and `RTT_ANALYSIS.md` for detailed documentation.
+
+---
+
 ## Files
 
 | File | Description |
 |---|---|
-| `rtt_analysis.py` | Main Scapy script — reads pcapng files and plots RTT vs Time, RTT vs Throughput, RTT vs Packet Rate |
+| `rtt_tcp_analysis.py` | Main Scapy script — reads pcapng files and plots RTT vs Time, RTT vs Throughput, RTT vs Packet Rate |
+| `RTT_ANALYSIS.md` | Detailed documentation for the RTT analysis script |
 | `comparison.py` | Plots Average RTT and Jitter comparison bar charts across all six traffic conditions |
-| `normal_capture.pcapng` | Wireshark capture — Normal traffic (passive, no injection) |
-| `low_capture.pcapng` | Wireshark capture — Low traffic (100 pps) |
-| `medium_capture.pcapng` | Wireshark capture — Medium traffic (200 pps) |
-| `heavy_wifi.pcapng` | Wireshark capture — Heavy traffic on WiFi (1000 pps) |
-| `heavy_hotspot.pcapng` | Wireshark capture — Heavy traffic on Mobile Hotspot (1000 pps) |
-| `dup_ack_capture.pcapng` | Wireshark capture — Duplicate ACK traffic |
+| `PCAP_FILES.md` | Links to all pcapng capture files hosted on Google Drive |
 | `graphs/` | Folder containing all 20 exported graph screenshots |
 | `screenshots/` | Folder containing all Wireshark capture screenshots |
 
