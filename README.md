@@ -110,11 +110,11 @@ sudo hping3 1.1.1.1 -S -p 443 -i u50000 -c 100 --tcp-timestamp
 
 ## Blog Link
 
-> [Insert your Blogger link here]
+> https://tcp-rtt-analysis-da3.blogspot.com/2026/04/tcp-rtt-analysis-under-various-traffic.html
 
 ## Video Link
 
-> [Insert your YouTube link here]
+> https://youtu.be/9tgw4o6n2AI
 
 ---
 
