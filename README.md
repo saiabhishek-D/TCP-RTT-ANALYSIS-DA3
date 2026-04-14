@@ -6,7 +6,7 @@
 | **Reg No** | 24BCE1619 |
 | **Department** | SCOPE, VIT Chennai |
 | **Course** | Computer Networks |
-| **Semester** | Winter Semester, B.Tech CSE (2024–2025) |
+| **Semester** | Winter Semester, B.Tech CSE (2025–2026) |
 
 ---
 
