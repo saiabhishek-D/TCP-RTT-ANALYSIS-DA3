@@ -1,10 +1,17 @@
 # DA3 — TCP Round Trip Time Analysis using Wireshark and hping3
 
-| | |
+# 📡 Computer Networks
+
+<div align="center">
+
+| Field | Details |
+|-------|---------|
 | **Name** | Sai Abhishek D |
 | **Department** | SCOPE, VIT Chennai |
 | **Course** | Computer Networks |
-| **Semester** | Winter Semester, B.Tech CSE (2025–2026) |
+| **Semester** | Winter Semester — B.Tech CSE (2025–2026) |
+
+</div>
 
 ---
 
