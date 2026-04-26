@@ -3,7 +3,6 @@
 | | |
 |---|---|
 | **Name** | Sai Abhishek D |
-| **Reg No** | 24BCE1619 |
 | **Department** | SCOPE, VIT Chennai |
 | **Course** | Computer Networks |
 | **Semester** | Winter Semester, B.Tech CSE (2025–2026) |
