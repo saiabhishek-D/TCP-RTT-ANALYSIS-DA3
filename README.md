@@ -134,4 +134,4 @@ sudo hping3 1.1.1.1 -S -p 443 -i u50000 -c 100 --tcp-timestamp
 
 ---
 
-*DA3 — Computer Networks — SCOPE, VIT Chennai — Winter Semester 2024-2025*
+*Computer Networks — SCOPE, VIT Chennai — Winter Semester 2025-2026*
